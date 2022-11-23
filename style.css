@@ -1,0 +1,127 @@
+/* Część nawigacji */
+
+.main-container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.nav-box {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  background-color: #4e4e4e;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.company {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f1f1f1;
+  padding-left: 30px;
+}
+
+.menu {
+  justify-content: space-between;
+  padding: 46px;
+}
+
+.link {
+  text-decoration: none;
+  font-family : "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #f1f1f1;
+  padding: 10px;
+}
+
+/* //Część header */
+
+.company-slogan {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+header {
+  width: 960px;
+  height: calc(100vh - 50px);
+  background-image: url(https://i.picsum.photos/id/221/1440/879.jpg?hmac=-y8GQ4KS-tmCflYwphSLZmsTu-m0rL8U6CldcgLjJoA);
+  background-size: cover;
+  margin: 0 auto;
+}
+
+.header-container {
+  width: 577px;
+  height: 215px;
+  padding-top: 150px;
+  padding-left: 80px;
+}
+
+.slogan-introduction {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding-bottom: 30px;
+}
+
+.btn-offer {
+  width: 164px;
+  height: 41px;
+  background: rgba(0, 0, 0, 0.15);
+  border: 3px solid #ffffff;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+.btn-offer:hover {
+  background-color: white;
+  color: black;
+  transition: 1s;
+  display: ;
+}
+
+/* Część o nas */
+
+.employee-picture {
+  width: 221px;
+  height: 221px;
+  border-radius: 50%;
+  background-image: url("Pracownik.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.team-member {
+  width: 80%;
+  height: 100%;
+  display: flex;
+}
+.employee-details {
+  width: 66%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  min-height: 100%;
+}
+.employee-name {
+  height: 50%;
+}
+.employee-description {
+  height: 50%;
+}
