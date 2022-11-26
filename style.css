@@ -3,6 +3,7 @@
 .main-container {
   width: 960px;
   margin: 0 auto;
+  font-family: Roboto;
 }
 
 .nav-box {
@@ -21,12 +22,11 @@
   font-size: 18px;
   line-height: 21px;
   color: #f1f1f1;
-  padding-left: 30px;
+  padding-left: 90px;
 }
 
 .menu {
   justify-content: space-between;
-  padding: 46px;
 }
 
 .link {
@@ -38,6 +38,10 @@
   line-height: 21px;
   color: #f1f1f1;
   padding: 10px;
+}
+
+.link:last-of-type {
+  padding-right: 90px;
 }
 
 /* //Część header */
@@ -94,10 +98,19 @@ header {
   background-color: white;
   color: black;
   transition: 1s;
-  display: ;
 }
 
 /* Część o nas */
+#onas {
+  background-color: #f1f1f1;
+}
+.workers {
+  font-weight: 700;
+  font-size: 36px;
+  margin-left: 90px;
+  padding-top: 51px;
+  background-color: #f1f1f1;
+}
 
 .employee-picture {
   width: 221px;
@@ -108,22 +121,112 @@ header {
   background-repeat: no-repeat;
 }
 .team-member {
-  width: 80%;
-  height: 100%;
   display: flex;
+  align-items: center;
+  padding: 44px 90px;
+  font-style: normal;
+
+  font-size: 18px;
 }
+
+.team-member:nth-of-type(2) {
+  flex-direction: row-reverse;
+}
+
+.team-member:nth-of-type(2) .employee-details {
+  text-align: end;
+  margin-right: 44px;
+  margin-left: 0;
+}
+
 .employee-details {
   width: 66%;
   height: 100%;
   flex-direction: column;
   justify-content: space-around;
   min-height: 100%;
+  margin-left: 44px;
 }
+
 .employee-name {
   height: 50%;
+  font-weight: bolder;
 }
 .employee-description {
   height: 50%;
+  font-weight: 400;
 }
 
 /* Usługi */
+.services-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+#services {
+  background-color: #405d78;
+}
+.services-container > .service {
+  width: 198px;
+  height: 193px;
+  background-color: #f1f1f1;
+  margin: 50px;
+}
+
+.first-one {
+  position: relative;
+}
+
+.first-one > div {
+  position: absolute;
+  background-color: #e07a64;
+  height: 22px;
+  width: 22px;
+  left: -10px;
+  top: -10px;
+  border-radius: 180px;
+}
+
+.serv-description {
+  text-align: center;
+  align-items: center;
+  padding: 80px 24px;
+  width: 149px;
+  height: 66px;
+  font-size: 20px;
+  font-style: normal;
+}
+.services-header {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  color: #ffffff;
+  padding: 30px 90px;
+}
+/* Footer */
+
+.footer-bar {
+  width: 100%;
+  height: 71px;
+  background-color: #4e4e4e;
+  display: flex;
+  justify-content: space-between;
+}
+.footer-note {
+  padding: 25px 90px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.icons {
+  padding-top: 24px;
+  margin-right: 82px;
+  color: #ffffff;
+  justify-content: space-between;
+}
+.fa-instagram {
+  padding-right: 18px;
+}
